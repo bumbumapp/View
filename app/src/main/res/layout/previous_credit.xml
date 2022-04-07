@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="14dp"
+    android:paddingTop="14dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/previous_credit_background"
+    android:paddingLeft="16dp">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/money"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/credit_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qaytarilan_mebleg_deyeri"
+        android:textColor="@color/grey"
+        android:layout_marginStart="15dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/sfprotextbold_semi"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22 fev | 16:40"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credit_value"
+        app:layout_constraintStart_toEndOf="@id/imageView11"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

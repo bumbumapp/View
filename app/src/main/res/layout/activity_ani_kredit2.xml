@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AniKredit2">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_background"
+            android:fitsSystemWindows="true">
+
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="20dp">
+
+                <ImageButton
+                    android:id="@+id/back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/arrow_back"
+                    app:tint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:letterSpacing="0.03"
+                    android:text="@string/ani_kredit"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="-10dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/calendar_"
+                    app:tint="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/gaincredit_backround"
+                android:backgroundTint="@color/white"
+                android:paddingTop="20dp"
+                android:paddingBottom="15dp">
+
+                <RelativeLayout
+                    android:id="@+id/relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/money" />
+
+                    <TextView
+                        android:id="@+id/credit_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_toRightOf="@id/imageView11"
+                        android:fontFamily="@font/sfprotextbold_semi"
+                        android:text="@string/qaytarilan_mebleg_deyeri"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/credit_value"
+                        android:layout_marginStart="15dp"
+                        android:layout_toRightOf="@+id/imageView11"
+                        android:text="07.02.22 | 10:45"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:backgroundTint="@color/pay_backgroundcolor"
+                        android:paddingLeft="35dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="35dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/pay"
+                        android:textAllCaps="false"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relative"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_marginStart="-6dp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/dotted_line"
+                        android:backgroundTint="@color/view_backgoundcolor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linear"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="15dp"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/daily_percent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:letterSpacing="0.02"
+                        android:text="@string/daily_percent"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/paid"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:letterSpacing="0.02"
+                        android:text="@string/paid"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/debt_of_today"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:letterSpacing="0.02"
+                        android:text="@string/debt_of_today"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linear1"
+                    android:layout_marginStart="18dp"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/daily_percent_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sfprotextbold_semi"
+                        android:letterSpacing="0.02"
+                        android:text="0.5 %"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/paid_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sfprotextbold_semi"
+                        android:letterSpacing="0.02"
+                        android:text="57 ₼"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/debtvalue_of_today"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sfprotextbold_semi"
+                        android:letterSpacing="0.02"
+                        android:text="56 ₼"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/paying_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:paddingBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

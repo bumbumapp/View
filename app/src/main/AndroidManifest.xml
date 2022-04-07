@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.view">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.View">
+        <activity
+            android:name=".AniKredit3"
+            android:exported="false" />
+        <activity
+            android:name=".AniKredit2"
+            android:exported="false" />
+        <activity
+            android:name=".AniKredit"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Finish"
+            android:exported="false" />
+        <activity
+            android:name=".OTP"
+            android:exported="false" />
+        <activity
+            android:name=".Netice"
+            android:exported="false" />
+        <activity
+            android:name=".Deyerlendirme"
+            android:exported="false" />
+        <activity
+            android:name=".Zamin"
+            android:exported="false" />
+        <activity
+            android:name=".Hesablama"
+            android:exported="false" />
+        <activity
+            android:name=".BirinciSual"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>

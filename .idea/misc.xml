@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.28125" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/add.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/add_.xml" value="0.28125" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/arrow_back.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/calculation_background.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/dotted_line.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/finish.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/firstquestion_background.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/gaincredit_backround.xml" value="0.28125" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/ic_launcher_background.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/kommission_background.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/kredit_confirmbacground.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/main_background.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/next_button_background.xml" value="0.2805128205128205" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/next_rightdrawable.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/past_kreditbackground.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/pinedit_background.xml" value="0.23080168776371307" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/previous_credit_background.xml" value="0.28125" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/view_background.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/drawable/yes_no_background.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/font/font.xml" value="0.29435897435897435" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/font/sfprotextbold_semi.xml" value="0.29435897435897435" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/font/sxprobold.xml" value="0.29435897435897435" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_ani_kredit.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_ani_kredit2.xml" value="0.16757246376811594" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_ani_kredit3.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_birinci_sual.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_deyerlendirme.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_finish.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_hesablama.xml" value="0.264" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_netice.xml" value="0.21875" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_otp.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/activity_zamin.xml" value="0.2" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/pastkredit.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/paying_list.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Durkhan/AndroidStudioProjects/View/app/src/main/res/layout/previous_credit.xml" value="0.23731884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

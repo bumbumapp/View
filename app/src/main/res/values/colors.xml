@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#263238</color>
+    <color name="dark">#1C1C1E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#858DA7</color>
+    <color name="green">#3BC99B</color>
+    <color name="blue">#005ABC</color>
+    <color name="dark_">#3A3A3C</color>
+    <color name="cardbackground_color">#F7F7F9</color>
+    <color name="agree_textcolor">#8E8E93</color>
+    <color name="mebleg_bacgroundcolor">#F4F4FA</color>
+    <color name="kommission_bacgroundcolor">#33F4F4FA</color>
+    <color name="cyan">#0A84FF</color>
+    <color name="azn_backgroundcolor">#1A0A84FF</color>
+    <color name="mebleg_textcolor">#566284</color>
+    <color name="security_backgroundcolor">#F5F5FA</color>
+    <color name="edittext_color">#000000</color>
+    <color name="number_bad_bacgroundcolor">#D1D5DB</color>
+    <color name="view_backgoundcolor">#E1E1ED</color>
+    <color name="background_firstquestion_color">#78EAC5</color>
+    <color name="grey">#3A4565</color>
+    <color name="pay_backgroundcolor">#7282FF</color>
+</resources>
